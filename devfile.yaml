@@ -59,7 +59,7 @@ commands:
     exec:
       label: "Run the application"
       component: nodejs
-      workingDir: ${PROJECTS_ROOT}/nodejs-mongodb-sample
+      workingDir: ${PROJECTS_ROOT}/che-samples-nodejs-mongodb-sample
       commandLine: "npm install && node --inspect=9229 app.js"
       group:
         kind: run
